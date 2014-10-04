@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="lightgray">#FFCECECE</color>
+    <color name="blue">#FF26C9FF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="yellow">#FFFFFF00</color>
+
+    <!-- main tab -->
+    <color name="title_main_tab">#99000000</color>
+    <color name="jogos_main_tab">#FFEEEEEE</color>
+    <color name="classificacao_main_tab">#FFDDDDDD</color>
+    <color name="artilharia_main_tab">#FFCCCCCC</color>
+
+    <!-- jogos controller -->
+    <color name="rodadaLidaBackground">#FF000000</color>
+
+    <!-- classificacao tab -->
+    <color name="libertadores">#5526C9FF</color>
+    <color name="rebaixamento">#55FF0000</color>
+
+</resources>

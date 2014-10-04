@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/posicao"
+        android:layout_width="20dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/time_image"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/icon_description"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/sigla"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/pontos"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/jogos"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/vitorias"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/empates"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/derrotas"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/gols_pro"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/gols_contra"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/saldo_gols"
+        style="@style/classificacao_numeros"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/percentage"
+        style="@style/classificacao_numeros"
+        android:layout_width="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#000000" />
+
+</TableRow>

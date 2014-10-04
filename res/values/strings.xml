@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campeonato Brasileiro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="icon_description"></string>
+    
+    <string name="rodadaAnterior">Rodada Anterior</string>
+    <string name="rodadaAtual">Rodada Atual</string>
+    <string name="rodadaProxima">Próxima Rodada</string>
+    <string name="refresh_description">Refresh button</string>
+    
+    <string name="rodada">Rodada</string>
+    
+    
+</resources>

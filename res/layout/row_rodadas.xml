@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@layout/style_row_jogos"
+    android:orientation="vertical"
+    android:padding="5sp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/rodada"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/rodadaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="14sp" />
+
+</LinearLayout>

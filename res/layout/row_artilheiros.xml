@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@layout/style_row_jogos"
+    android:orientation="horizontal"
+    android:padding="20sp" >
+
+    <TextView
+        android:id="@+id/posicao"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="2sp"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/time_image"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:contentDescription="@string/icon_description"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/time_sigla"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="2sp"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/jogador_nome"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:layout_marginBottom="2sp"
+        android:gravity="center" />
+    
+    
+    
+    <TextView
+        android:id="@+id/gols"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:layout_marginBottom="2sp"
+        android:gravity="center" />
+
+</LinearLayout>
